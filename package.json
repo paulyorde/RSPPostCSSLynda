@@ -4,19 +4,7 @@
   "description": "A repository for an upcoming Responsive Single Page Layouts course on Lynda.com",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.0",
-    "postcss-animation": "0.0.6",
-    "postcss-color-function": "^2.0.0",
-    "precss": "^1.3.0",
-    "autoprefixer": "^6.1.1",
-    "gulp-postcss": "^6.0.1",
-    "gulp-util": "^3.0.7",
-    "install": "^0.4.0",
-    "cssnano": "^3.3.2",
-    "gulp-webserver": "^0.9.1",
-    "mq4-hover-shim": "^0.3.0",
-    "npm": "^3.5.0",
-    "autoprefixer": "^6.1.1"
+    
   },
   "devDependencies": {
     "autoprefixer": "^6.1.1",
@@ -33,7 +21,8 @@
     "precss": "^1.3.0"
   },
   "scripts": {
-    "start": "node gulpfile.js"
+    "build": "gulpfile.js",
+    "start": "node index.js"
   },
   "engines": {
     "node": "5.9.1"
