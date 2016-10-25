@@ -13,6 +13,7 @@
     "gulp-util": "^3.0.7",
     "install": "^0.4.0",
     "cssnano": "^3.3.2",
+    "gulp-webserver": "^0.9.1",
     "mq4-hover-shim": "^0.3.0",
     "npm": "^3.5.0",
     "autoprefixer": "^6.1.1"
@@ -33,6 +34,13 @@
   },
   "scripts": {
     "start": "node gulpfile.js"
+  },
+  "engines": {
+    "node": "5.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulyorde/RSPPostCSSLynda.git"
   },
   "author": "Ray Villalobos",
   "license": "MIT",
