@@ -4,7 +4,7 @@
   "description": "A repository for an upcoming Responsive Single Page Layouts course on Lynda.com",
   "main": "gulpfile.js",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "autoprefixer": "^6.1.1",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "gulpfile.js",
-    "start": "node index.js"
+    "start": "node gulpfile.js"
   },
   "engines": {
     "node": "5.9.1"
