@@ -39,4 +39,12 @@ gulp.task('webserver', function() {
     }));
 });
 
-gulp.task('default', ['html', 'css', 'webserver', 'watch']);
+gulp.task('serveprod', function() {
+  connect.server({
+    root: 'builds/postcss/',
+    port: process.env.PORT || 5000,
+    livereload: false
+  });
+});
+
+gulp.task('default', ['html', 'css', 'serveprod']);
