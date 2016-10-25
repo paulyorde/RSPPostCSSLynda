@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "start": "node gulp"
+    "start": "gulp"
   },
   "engines": {
     "node": "5.9.1"
