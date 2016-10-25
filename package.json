@@ -32,8 +32,7 @@
     "precss": "^1.3.0"
   },
   "scripts": {
-    "start": "node app",
-    "postinstall": "gulp default"
+    "start": "gulp"
   },
   "engines": {
     "node": "5.9.1"
@@ -42,10 +41,6 @@
     "type": "git",
     "url": "https://github.com/paulyorde/RSPPostCSSLynda.git"
   },
-  "author": "Ray Villalobos",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/planetoftheweb/postcsslayouts/issues"
-  },
-  "homepage": "https://github.com/planetoftheweb/postcsslayouts#readme"
+  "author": "Paul Yorde",
+  "license": "MIT"
 }

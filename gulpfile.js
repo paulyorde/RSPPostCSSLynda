@@ -34,9 +34,9 @@ gulp.task('watch', function() {
 gulp.task('webserver', function() {
   gulp.src(dest)
     .pipe(webserver({
-      livereload: true,
+      livereload: false,
       open: true
     }));
 });
 
-gulp.task('default', ['html', 'css', 'webserver','watch']);
+gulp.task('default', ['html', 'css', 'webserver', 'watch']);
