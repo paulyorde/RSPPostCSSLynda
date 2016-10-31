@@ -1,3 +1,3 @@
-Paul Yorde
+# Portfolio project
 
-Project using postCSS
+Project Technologies: Gulp, NPM, Html, CSS, JavaScript, Jquery, Greensock, and ScrollMagic
